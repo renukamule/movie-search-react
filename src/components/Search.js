@@ -63,7 +63,7 @@ function Search(props) {
 
     useEffect(() => {
         if (searchQuery) {
-            fetch(`http://www.omdbapi.com/?s=${searchQuery}&apikey=6715d830`)
+            fetch(`https://www.omdbapi.com/?s=${searchQuery}&apikey=6715d830`)
                 .then(resp => resp)
                 .then(resp => resp.json())
                 .then(response => {
