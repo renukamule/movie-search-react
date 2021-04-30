@@ -1,3 +1,8 @@
+A React web-app to let users search for specific movies using the OMDb API and add them to a list and sort them by year and title. Used react-beautiful-dnd to generate the list.
+
+# Constraints 
+In case of a bad search, it searches again automatically with the first three letters typed.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
